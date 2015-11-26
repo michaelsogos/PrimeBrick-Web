@@ -1,0 +1,45 @@
+{
+  "name": "hash-router",
+  "homepage": "https://github.com/michaelsogos/Hash-Router",
+  "authors": [
+    "Michael Sogos <michael.sogos@gurustudioweb.it>",
+    "Anton Rodin <sloot14@gmail.com>"
+  ],
+  "version": "1.2.1",
+  "description": "Tiny and lightweight browser router library, developed with SPA in mind :)",
+  "main": [
+    "src/hash-router.js",
+    "src/hash-router.min.js",
+    "src/hash-router.min.js.map"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "hash",
+    "router",
+    "browser",
+    "npm",
+    "spa",
+    "url",
+    "path"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": false,
+  "_release": "1.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.2.1",
+    "commit": "8fb4a5507e300dc0be50fd847372e36db6c83cc3"
+  },
+  "_source": "git://github.com/michaelsogos/Hash-Router.git",
+  "_target": "1.2.1",
+  "_originalSource": "hash-router"
+}

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeBrick.Web", "PrimeBrick.Web\PrimeBrick.Web.csproj", "{6DE0F27D-1078-470D-9836-C86112696B86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeBrick.Web.Tests", "PrimeBrick.Web.Tests\PrimeBrick.Web.Tests.csproj", "{4047B417-0E38-40B3-941F-51136A7C6759}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GSW.DBResourceManager", "..\..\..\Visual Studio 2013\Projects\GSW\DBResourceManager\GSW.DBResourceManager.vbproj", "{22151E35-B9C9-420E-8FAA-D14504705C8D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GSW.Helpers", "..\..\..\Visual Studio 2013\Projects\GSW\Helpers\GSW.Helpers.vbproj", "{88CB2689-BAFC-4D71-BC2D-7D2B0A1B5A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeBrick.Web.HelpPages", "PrimeBrick.Web.HelpPages\PrimeBrick.Web.HelpPages.csproj", "{E26C3D3D-62A5-4ED2-9B3B-AA423B96B5A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DE0F27D-1078-470D-9836-C86112696B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE0F27D-1078-470D-9836-C86112696B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE0F27D-1078-470D-9836-C86112696B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE0F27D-1078-470D-9836-C86112696B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4047B417-0E38-40B3-941F-51136A7C6759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4047B417-0E38-40B3-941F-51136A7C6759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4047B417-0E38-40B3-941F-51136A7C6759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4047B417-0E38-40B3-941F-51136A7C6759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22151E35-B9C9-420E-8FAA-D14504705C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22151E35-B9C9-420E-8FAA-D14504705C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22151E35-B9C9-420E-8FAA-D14504705C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22151E35-B9C9-420E-8FAA-D14504705C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88CB2689-BAFC-4D71-BC2D-7D2B0A1B5A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88CB2689-BAFC-4D71-BC2D-7D2B0A1B5A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88CB2689-BAFC-4D71-BC2D-7D2B0A1B5A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88CB2689-BAFC-4D71-BC2D-7D2B0A1B5A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E26C3D3D-62A5-4ED2-9B3B-AA423B96B5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26C3D3D-62A5-4ED2-9B3B-AA423B96B5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26C3D3D-62A5-4ED2-9B3B-AA423B96B5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26C3D3D-62A5-4ED2-9B3B-AA423B96B5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

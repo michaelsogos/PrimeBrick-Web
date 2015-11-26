@@ -1,0 +1,53 @@
+[
+  {
+    "outputFileName": "App/system.js",
+    "inputFiles": [
+      "App/system.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "preserveImportantComments": false
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "Scripts/primebrick.js",
+    "inputFiles": [
+      "Scripts/primebrick.web.js",
+      "Scripts/primebrick.web.controller.js",
+      "Scripts/primebrick.web.view.js",
+      "Scripts/primebrick.web.log.js",
+      "Scripts/primebrick.web.ui.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "preserveImportantComments": false
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "App/main.js",
+    "inputFiles": [
+      "App/main.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "preserveImportantComments": false
+    },
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "Scripts/require.js",
+    "inputFiles": [
+      "Scripts/require.js"
+    ],
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "Scripts/text.js",
+    "inputFiles": [
+      "Scripts/text.js"
+    ],
+    "sourceMap": true
+  }
+]

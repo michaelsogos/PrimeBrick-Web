@@ -1,0 +1,32 @@
+{
+  "name": "jquery.idle",
+  "main": "jquery.idle.js",
+  "version": "1.2.6",
+  "homepage": "https://github.com/kidh0/jquery.idle",
+  "authors": [
+    "Henrique Boaventura <hboaventura@gmail.com>"
+  ],
+  "description": "A dead simple jQuery plugin that executes a callback function if the user is idle.",
+  "keywords": [
+    "jquery",
+    "idle",
+    "plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.2.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.2.6",
+    "commit": "05ca0e8d34b0fc610e248774edea935b96aebea6"
+  },
+  "_source": "git://github.com/kidh0/jquery.idle.git",
+  "_target": "1.2.6",
+  "_originalSource": "jquery.idle"
+}
