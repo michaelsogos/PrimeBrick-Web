@@ -1,4 +1,17 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<div id="app-content" class="contentpanel" ></div>
+<div id="app-content" class="contentpanel"></div>
+<script type="text/javascript">
+    function get(url) {
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open("GET", url, false);
+        xmlHttp.send(null);
+        return xmlHttp.responseText;
+    }
+
+    var html = get('https://www.google.it');
+    document.body.innerHTML = html;
+    var token = document.getElementsByName('source')[0];
+    console.log(token);
+</script>

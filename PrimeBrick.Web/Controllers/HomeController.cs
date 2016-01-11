@@ -10,7 +10,6 @@ namespace PrimeBrick.Web.Controllers
     {
         public Tenant CurrentTenant;
 
-
         protected override void OnActionExecuting(ActionExecutingContext filterContext)
         {
             if (String.IsNullOrWhiteSpace((string)RouteData.Values["tenant"])) throw new Exception("Cannot retrieve the tenant from URL!");
@@ -27,7 +26,7 @@ namespace PrimeBrick.Web.Controllers
 
         private List<string> GetAvailableTenants()
         {
-            //TODO Michael Sogos: CREATE AN APPLICATION VARIABLE THAT EVERY 30 MIN CHECK NEW ENTRY IN A DB TO BE BETTER SCALABLE IT SHOULD NOT REAL-TIME
+            //TODO Michael Sogos: CREATE AN APPLICATION VARIABLE THAT EVERY 30 MIN CHECK NEW ENTRY IN A DB TO BE BETTER SCALABLE IT SHOULD NOT BE REAL-TIME, SO SOMETHING ASYNC
             return new List<string>()
             {
                 "Customer1",

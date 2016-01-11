@@ -14,6 +14,10 @@
     "outputFileName": "Scripts/primebrick.js",
     "inputFiles": [
       "Scripts/primebrick.web.js",
+      "Scripts/primebrick.web.utils.js",
+      "Scripts/primebrick.web.settings.js",
+      "Scripts/primebrick.web.security.js",
+      "Scripts/primebrick.web.api.js",
       "Scripts/primebrick.web.controller.js",
       "Scripts/primebrick.web.view.js",
       "Scripts/primebrick.web.log.js",

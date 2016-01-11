@@ -33,7 +33,7 @@ require(['ractive', 'jquery', 'jqueryIdle', 'bootstrap', 'hashRouter', 'store', 
     App.Log.Info("Application Started, all global modules are loaded!");
 
     window.Ractive = Ractive;
-                                                              
+
     App.Controller.Load('system', function () {
         Router.init(
              function (route) {
@@ -75,5 +75,9 @@ require(['ractive', 'jquery', 'jqueryIdle', 'bootstrap', 'hashRouter', 'store', 
         idle: 600000 //60s * 10min * 1000ms
     });
 }, function (err) {
-    App.Log.Error(err);
+    if (typeof App == 'undefined') {
+        console.log(err);
+    } else {
+        App.Log.Error(err);
+    }   
 });

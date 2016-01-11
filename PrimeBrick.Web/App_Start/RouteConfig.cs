@@ -11,8 +11,8 @@ namespace PrimeBrick.Web
 
             routes.MapRoute(
                 name: "Default",
-                url: "{tenant}",
-                defaults: new { controller = "Home", action = "Index" }
+                url: "{tenant}/{controller}/{action}",
+                defaults: new { tenant = "", controller = "Home", action = "Index" }
             );
         }
     }
